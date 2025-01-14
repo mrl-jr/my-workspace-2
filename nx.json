@@ -24,22 +24,12 @@
       "inputs": ["production", "^production"]
     }
   },
-  "nxCloudId": "674f53c7d65714bfee93e43f",
-  "nxCloudUrl": "https://staging.nx.app",
+  "nxCloudId": "6786c656c79278ce38ec094f",
+  "nxCloudUrl": "http://localhost:4202",
   "test": "2",
   "plugins": [
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      }
-    }
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
+    { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
   ],
   "defaultBase": "origin/main"
 }
